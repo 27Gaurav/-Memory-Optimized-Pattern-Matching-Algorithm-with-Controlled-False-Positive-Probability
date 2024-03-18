@@ -13,9 +13,7 @@ The problem involves finding occurrences of a pattern `p` of length `m` in a doc
 - `randPatternMatch(eps, p, x)`: Finds occurrences of `p` in `x` with controlled error probability.
 - `randPatternMatchWildcard(eps, p, x)`: Finds occurrences of a pattern `p` with wildcards in `x`.
 
-### Evaluation
 
-The correctness of the `modPatternMatch` function will be assessed using an autograder. Manual grading will evaluate the space and time complexities of the solution, along with the correctness of other components. Theoretical time and space complexities will be considered, ignoring practical differences due to Python's semantics.
 
 ### Example Test Cases
 
@@ -41,12 +39,6 @@ modPatternMatchWildcard(1000000007, ‘?A’, ‘ABCDE’)
 [0, 1, 2, 3]
 
 
-### Submission
 
-Please ensure that your implementation of `modPatternMatch`, `modPatternMatchWildcard`, and `findN` are completed in the provided `a4.py` file before submission.
 
-For any queries or clarifications, feel free to reach out.
 
-Best regards,
-
-Gaurav Singh
